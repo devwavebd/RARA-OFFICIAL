@@ -1,0 +1,6 @@
+{
+  "name": "The Body Firm - Premium Fitness Studio",
+  "description": "A high-end, modern redesign of The Body Firm fitness studio website, featuring personal training, success stories, and wellness resources.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
