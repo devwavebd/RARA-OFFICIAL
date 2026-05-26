@@ -31,7 +31,7 @@ export default function About() {
             <div className="relative px-4 md:px-0 mt-8 lg:mt-0">
                <div className="absolute -inset-10 bg-red-600/20 blur-[100px] md:blur-[120px] rounded-full" />
                <img 
-                src="https://images.unsplash.com/photo-1574680077505-ef74a569529a?q=80&w=1600&auto=format&fit=crop" 
+                src="https://thebodyfirmaz.com/wp-content/uploads/2015/05/Body-Firm-1-0f-6.jpg-7-of-7.jpg" 
                 alt="Our Team" 
                 className="relative z-10 w-full h-auto rounded-[2rem] md:rounded-[3rem] border border-white/10 shadow-2xl skew-y-0 sm:skew-y-1"
                 referrerPolicy="no-referrer"
