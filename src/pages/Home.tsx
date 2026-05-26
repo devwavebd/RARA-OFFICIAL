@@ -38,10 +38,10 @@ export default function Home() {
                 START YOUR TRIAL
                 <ArrowRight size={20} />
               </button>
-              <button className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white backdrop-blur-md rounded-full font-bold text-base md:text-lg hover:bg-white/20 transition-all flex items-center justify-center gap-2 group">
+              <a href="https://youtu.be/UOR2hF5Zbs8?si=8XZ6ivBw2X9fC0gu" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto px-8 py-4 bg-white/10 text-white backdrop-blur-md rounded-full font-bold text-base md:text-lg hover:bg-white/20 transition-all flex items-center justify-center gap-2 group">
                 <Play size={18} className="fill-white" />
                 WATCH OUR VIDEO
-              </button>
+              </a>
             </div>
           </motion.div>
         </div>
@@ -100,18 +100,15 @@ export default function Home() {
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 md:gap-20 items-center">
             <div className="relative group px-2 md:px-0">
               <div className="absolute -inset-4 bg-red-600 rounded-[2rem] md:rounded-[2.5rem] opacity-20 blur-2xl group-hover:opacity-30 transition-opacity" />
-              <div className="relative aspect-[4/3] overflow-hidden rounded-[2rem] md:rounded-[2.5rem] border border-white/10 shadow-2xl">
-                <img 
-                  src="https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?q=80&w=1200&auto=format&fit=crop" 
-                  alt="Gym Interior" 
-                  className="w-full h-full object-cover transition-transform duration-700 group-hover:scale-105"
-                  referrerPolicy="no-referrer"
+              <div className="relative aspect-video overflow-hidden rounded-[2rem] md:rounded-[2.5rem] border border-white/10 shadow-2xl bg-black">
+                <iframe 
+                  className="w-full h-full"
+                  src="https://www.youtube.com/embed/UOR2hF5Zbs8?autoplay=1&mute=1&loop=1&playlist=UOR2hF5Zbs8" 
+                  title="The Body Firm Video"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                  allowFullScreen
+                  style={{ border: 0 }}
                 />
-                <button className="absolute inset-0 flex items-center justify-center group/btn">
-                  <div className="w-16 h-16 md:w-20 md:h-20 bg-red-600 rounded-full flex items-center justify-center shadow-2xl scale-100 group-hover/btn:scale-110 transition-transform">
-                    <Play className="fill-white text-white ml-1 w-6 h-6 md:w-8 md:h-8" />
-                  </div>
-                </button>
               </div>
               <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mt-8 absolute -bottom-10 -right-4 md:static">
                  <div className="bg-zinc-900 p-4 md:p-6 rounded-2xl md:rounded-3xl border border-white/5 text-center shadow-2xl">
